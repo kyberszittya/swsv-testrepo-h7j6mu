@@ -1,1 +1,9 @@
-lanugage: java
+jdk:
+  - oraclejdk8
+language: java
+install: true
+script:
+  - cd my-app
+  - ./maven compile
+  - ./maven test
+  - ./maven package
