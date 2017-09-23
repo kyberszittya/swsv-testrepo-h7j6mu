@@ -4,6 +4,6 @@ language: java
 install: true
 script:
   - cd my-app
-  - ./maven compile
-  - ./maven test
-  - ./maven package
+  - mvn compile
+  - mvn test
+  - mvn package
